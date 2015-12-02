@@ -44,7 +44,7 @@
             <br>
             <%
             //Obtendo a variável definida no servlet.
-            mvc.CalculoIMCModel calculoImc = (mvc.CalculoIMCModel) request.getAttribute("imc");
+            mvc.CalculoIMCModel calculoImc = (mvc.CalculoIMCModel) request.getAttribute("index");
             //Se parâmetros inválidos, ...
             if (calculoImc.getPeso() == 0 || calculoImc.getAltura() == 0) {
 %>
